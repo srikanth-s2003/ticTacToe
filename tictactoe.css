@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    /* color: whitesmoke; */
+}
+/* body{
+    background: url('../images/netflixb.jpeg');
+} */
+.gameContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    align-content: center;
+    vertical-align: middle;
+    margin: 30px;
+    /* position: relative; */
+}
+.game{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 40%;
+    text-transform: uppercase;
+    /* margin-left: 200px; */
+}
+.header{
+    display: block;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 65px;
+    padding: 15%;
+    /* font-family: cursive; */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    /* position: absolute; */
+}
+/* .cell:nth-child(odd){
+    border-top: none;
+    border-left: none;
+} */
+.btn{
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.playersTurn{
+    height: 50px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.result{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.result h3{
+    margin-right: 20px;
+}
